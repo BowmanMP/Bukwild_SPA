@@ -1,0 +1,59 @@
+.pageUI-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+    height: 100%;
+    width: 82%;
+}
+
+.headline-container {
+    overflow:visible;
+    width: 50%;
+    height: auto;
+    font-size: 3.25rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -2.2px;
+    color: white;
+    background-color: transparent;
+}
+
+.subhead-container {
+    width: 22.5rem;
+    height: 14.188rem;
+    margin-right: 11.8%;
+    margin-left: 11.8%;
+    font-family: HelveticaNeue;
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    color: white;
+}
+
+.cta-container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 82%;
+    height: 22%;
+    margin: 0 9%;
+    padding: 4.625rem 8.5rem 4.563rem 4.813rem;
+    background-color: white;
+}
+
+.cta-text {
+    background-color: white;
+}
+
+.cta-link {
+    background-color: white;
+}

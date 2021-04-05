@@ -1,0 +1,28 @@
+.flex-container {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 4.728rem;
+    height: 2.363rem;
+    margin: 1.179rem 0 0.958rem 9%;
+    object-fit: contain;
+    background-color: var(--white);
+}
+
+.contactBtn {
+
+    width: 8.688rem;
+    top: 0;
+    height: 2.625rem;
+    margin: 1.563rem 9% 0 0;
+    padding: 0.75rem 0.063rem 0.75rem 0;
+    border: solid 1px white;
+    color: white;
+}
+
+.contactBtn:hover {
+    background-color: #ffc004
+}
