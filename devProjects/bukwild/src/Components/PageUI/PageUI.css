@@ -1,59 +1,113 @@
+.main {
+  position: relative;
+  min-height: 82vh;
+}
+
 .pageUI-container {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    margin: auto;
-    margin-top: 5%;
-    height: 100%;
-    width: 82%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 5%;
+  width: 82%;
+  padding-bottom: 22%;
+  padding-top: 5%;
 }
 
 .headline-container {
-    overflow:visible;
-    width: 50%;
-    height: auto;
-    font-size: 3.25rem;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: -2.2px;
-    color: white;
-    background-color: transparent;
+  overflow: visible;
+  width: 50%;
+  height: auto;
+  font-size: 2.25rem;
+  margin-top: 9%;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -2.2px;
+  color: white;
+  background-color: transparent;
 }
 
 .subhead-container {
-    width: 22.5rem;
-    height: 14.188rem;
-    margin-right: 11.8%;
-    margin-left: 11.8%;
-    font-family: HelveticaNeue;
-    font-size: 0.875rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.86;
-    letter-spacing: normal;
-    color: white;
+  width: 50%;
+  margin-right: 11.8%;
+  margin-left: 11.8%;
+  font-family: HelveticaNeue;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  margin-top: 10%;
+  letter-spacing: normal;
+  color: white;
 }
 
-.cta-container { 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    bottom: 0;
-    width: 82%;
-    height: 22%;
-    margin: 0 9%;
-    padding: 4.625rem 8.5rem 4.563rem 4.813rem;
-    background-color: white;
+.cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 82%;
+  height: 22%;
+  margin: 0 9%;
+  padding: 4.625rem 8.5rem 4.563rem 4.813rem;
+  background-color: white;
 }
 
 .cta-text {
-    background-color: white;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  letter-spacing: -0.63px;
+}
+
+.cta-container a {
+  text-decoration: none;
+  color: black;
+  width: 20%;
 }
 
 .cta-link {
-    background-color: white;
+  font-size: 0.748rem;
+  line-height: 1.82;
+  font-weight: 500;
+}
+
+.arrow {
+  color: #ffc001;
+}
+
+@media only screen and (max-width: 768px) {
+  .pageUI-container {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20%;
+    padding-bottom: 5%;
+  }
+
+  .headline-container {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  .subhead-container {
+    width: 80%;
+    padding-bottom: 45%;
+  }
+
+  .cta-container {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 4%;
+  }
+
+  .cta-text {
+    padding-bottom: 5%;
+  }
 }

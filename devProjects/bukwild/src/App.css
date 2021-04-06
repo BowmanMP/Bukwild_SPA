@@ -3,5 +3,29 @@
   margin: 0;
   padding: 0;
   font-family: HelveticaNeue;
-  background-color: rgb(88, 140, 235);
+}
+
+.App {
+  min-height: 100vh;
+  max-width: 1440px;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+}
+
+html .one {
+  background: url("./Images/slide_one.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+html .two {
+  background: url("./Images/slide_two.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+html .three {
+  background: url("./Images/slide_three.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
